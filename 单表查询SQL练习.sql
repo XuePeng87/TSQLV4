@@ -1,7 +1,7 @@
 -- 练习1
 -- 练习内容：编写一个对Sales.Orders表的查询，返回2015年6月的订单
 -- 涉及的表：Sales.Orders
--- 输入的列：orderid, orderdate, custid, empid
+-- 输出的列：orderid, orderdate, custid, empid
 -- 正确结果：30行
 SELECT orderid, orderdate, custid, empid  
 FROM Sales.Orders 
@@ -14,7 +14,7 @@ WHERE orderdate >= '20150601' AND orderdate < '20150701';
 -- 练习2
 -- 练习内容：编写一个对Sales.Orders表的查询，返回每月最后一天的订单
 -- 涉及的表：Sales.Orders
--- 输入的列：orderid, orderdate, custid, empid
+-- 输出的列：orderid, orderdate, custid, empid
 -- 正确结果：26行
 SELECT orderid, orderdate, custid, empid  
 FROM Sales.Orders 
