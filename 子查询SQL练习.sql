@@ -1,5 +1,5 @@
 -- 练习1
--- 练习内容：编写一个查询，返回Orders表中可以查到的活动最后一天的所有订单。
+-- 练习内容：编写一个查询，返回Orders表中可以查到的活动最后一天的所有订单
 -- 涉及的表：Sales.Orders
 -- 输出的列：orderid, orderdate, custid, empid
 -- 正确结果：4行
@@ -22,7 +22,7 @@ WHERE custid =
 );
 
 -- 练习3
--- 练习内容：编写一个查询，返回在2016年5月1日或之后没有下订单的雇员。
+-- 练习内容：编写一个查询，返回在2016年5月1日或之后没有下订单的雇员
 -- 涉及的表：HR.Employees, Sales.Orders
 -- 输出的列：empid, firstname, lastname
 -- 正确结果：4行
